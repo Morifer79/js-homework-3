@@ -7,11 +7,11 @@ const fixedTime = localStorage.getItem('videoplayer-current-time');
 player.on('timeupdate', throttle(timeUpdateHandler, 1000));
 
 function timeUpdateHandler(e){
-	const currentTime = e.seconds;
-	localStorage.setItem('videoplayer-current-time', currentTime);
+  const currentTime = e.seconds;
+  localStorage.setItem('videoplayer-current-time', currentTime);
 }
 
 if (fixedTime) {
-	player.setCurrentTime(fixedTime);
+  player.setCurrentTime(fixedTime);
 }
 // console.log(fixedTime);
