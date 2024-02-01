@@ -5,7 +5,7 @@
   "homepage": "https://Morifer79.github.io/js-homework-3",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /js-homework-3/"
   },
   "repository": {
     "type": "git",
